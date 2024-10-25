@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/app.js",
     "dev": "nodemon server/app.ts"
   },
   "author": "",
